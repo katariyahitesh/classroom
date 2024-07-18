@@ -1,0 +1,308 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+#navbar{
+    height: 60px;
+    color: black;
+    background-color: rgb(252, 250, 250);
+    display:inline block;
+    display: flex;
+    align-items: center;
+}
+
+#flogo{
+height: 60px;
+width: 70px;
+margin: 10px;
+background-image: url(logo.webp);
+background-size: cover;
+display: inline-block;
+}
+#outer{
+    height: 50px;
+    width: 100%;
+    margin-right: 25px;
+    background-color: rgb(243, 252, 249);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+#inneR{
+    height:45px ;
+    width: 45px ;
+    background-color: chartreuse;
+    background-image: url("loginlogo.jpg");
+    background-size: cover;
+}
+#inNer{
+    height:45px ;
+    width: 45px ;
+    background-image:url("cartbasket.png");
+    background-size: cover;
+}
+
+
+
+.search{
+    height: 50px;
+    width: 95%;
+    background-color: rgba(177, 171, 171, 0.918);
+
+}
+
+
+
+.navs{
+    height: 50px;
+    width: 100%;
+    background-color:rgba(187, 190, 187, 0.233);
+    display: flex;
+    align-items: center;
+}
+#navlogo{
+    height: 47px;
+    width: 60px;
+    margin: 10px;
+    background-image: url(searchicon.webp);
+    background-size: cover;
+    margin-right: 10px
+}
+#More{
+    height:45px;
+    width: 100%; 
+    border: none;
+    padding: 5px; 
+    font-size: 14px;
+}
+#manu{
+    height:80px ;
+    width: 100%;
+    background-color: rgb(170, 99, 99);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.categories{
+    height: 100px;
+    width: 100%;
+    background-color: azure;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.box1{
+    height: 80px;
+    width: 90px;
+}
+.box-img1{
+    height: 70px;
+    width:80px ;
+    background-image: url("catagorylogo.jpg");
+    background-size: cover;
+
+}
+.box2{
+    height: 80px;
+    width: 90px;
+}
+.box-img2{
+    height: 70px;
+    width:80px ;
+    background-image: url("offer.png");
+    background-size: cover;
+
+}
+
+.box3{
+    height: 80px;
+    width: 90px;
+}
+.box-img3{
+    height: 70px;
+    width:80px ;
+    background-image: url("mobile.jpg");
+    background-size: cover;
+
+}
+.box4{
+    height: 80px;
+    width: 90px;
+}
+.box-img4{
+    height: 70px;
+    width:80px ;
+    background-image: url("fashion.webp");
+    background-size: cover;
+
+}
+.box5{
+    height: 80px;
+    width: 90px;
+}
+.box-img5{
+    height: 70px;
+    width:80px ;
+    background-image: url("smartgadgets.webp");
+    background-size: cover;
+
+}
+.categories2{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(237, 250, 246);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+.phoneonhand{
+    height: 90px;
+    width:80px ;
+    background-image: url("phoneonhand.jpg");
+    background-size: cover;
+}
+.leftarrow{
+    height: 90px;
+    width:80px ;
+    background-image: url("leftaerrow.jpg");
+    background-size: cover;
+}
+.add1{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.add{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-image:url("boatoffer.jpg") ;
+    background-size:cover ;
+}
+.Sponsored{
+    height: 600px;
+    width: 100%;
+    background-color: lemonchiffon;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly ;
+
+}
+.div1{
+    height: 290px;
+    width: 30%;
+    background-color: white;
+    border: 1px solid black;
+    text-align: center;
+}
+.AMOLED{
+    margin-top: 10px;
+}
+.div10-img{
+    height:240px ;
+    width: 100%;
+    background-image:url("sponceradd1.jpg") ;
+    background-size: cover;
+}
+.div2{
+    height: 290px;
+    width: 30%;
+    background-color: white;
+    border: 1px solid black;
+    text-align: center;
+}
+.div20-img{
+    height:240px ;
+    width: 100%;
+    background-image:url("sponceredadd2.jpg") ;
+    background-size: cover;
+}
+.div3{
+    height: 290px;
+    width: 30%;
+    background-color: white;
+    border: 1px solid black;
+    text-align: center;
+}
+.div30-img{
+    height:240px ;
+    width: 100%;
+    background-image:url("sponceradd3.webp") ;
+    background-size: cover;
+}
+.div4{
+    height: 290px;
+    width: 30%;
+    background-color: white;
+    border: 1px solid black;
+    text-align: center;
+}
+.div40-img{
+    height:240px ;
+    width: 100%;
+    background-image:url("sponceradd4.webp") ;
+    background-size: cover;
+}
+.div5{
+    height: 290px;
+    width: 30%;
+    background-color: white;
+    border: 1px solid black;
+    text-align: center;
+}
+.div50-img{
+    height:240px ;
+    width: 100%;
+    background-image:url("sponceradd5.jpg") ;
+    background-size: cover;
+}
+.div6{
+    height: 290px;
+    width: 30%;
+    background-color: white;
+    border: 1px solid black;
+    text-align: center;
+}
+.div60-img{
+    height:240px ;
+    width: 100%;
+    background-image:url("sponceradd6.webp") ;
+    background-size: cover;
+}
+.footer{
+    height: 200px;
+    width: 100%;
+    background-color: rgb(213, 226, 222);
+}
+.footer1{
+    height: 30px;
+    width: 100%;
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+#city{
+    background-color: rgb(248, 191, 69);
+}
+#help{
+    background-color: rgb(248, 191, 69);
+}
+#Detail{
+    background-color: rgb(248, 191, 69);
+}
+#Coustmor-Support{
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+}
+#num{
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+}
